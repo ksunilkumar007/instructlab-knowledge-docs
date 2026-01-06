@@ -1,0 +1,74 @@
+---
+version: 3
+domain: Texas Longhorns Football
+created_by: ksunilkumar007
+seed_examples:
+  - context: >
+      The Texas Longhorns football program is the intercollegiate team
+      representing the University of Texas at Austin in American football. They
+      compete in NCAA Division I Football Bowl Subdivision as a member of the
+      Southeastern Conference (SEC). Their home games are played at Darrell K
+      Royal–Texas Memorial Stadium in Austin, Texas.
+    questions_and_answers:
+      - question: What university does the Texas Longhorns football team represent?
+        answer: The University of Texas at Austin.
+      - question: In which stadium do the Longhorns play their home games?
+        answer: Darrell K Royal–Texas Memorial Stadium.
+      - question: Which conference do they belong to as of 2024?
+        answer: Southeastern Conference (SEC).
+  - context: >
+      With over 950 wins, and an all-time win–loss percentage of .704, the
+      Longhorns rank 5th and 7th on all-time wins and win–loss records lists,
+      respectively. The program claims 4 national championships, 34 conference
+      championships, 100 First Team All-Americans, and 2 Heisman Trophy winners.
+    questions_and_answers:
+      - question: How many national championships has Texas claimed?
+        answer: 4 national championships.
+      - question: How many conference championships has Texas won?
+        answer: 34 conference championships.
+      - question: How many First Team All-Americans are in the program?
+        answer: 100 First Team All-Americans.
+  - context: >
+      Beginning in 1893, the Texas Longhorns football program is one of the
+      most historic programs. Coaches like Dana X. Bible and Darrell K Royal led
+      the team to multiple championships. Texas won national championships in
+      1963, 1969, 1970, and 2005.
+    questions_and_answers:
+      - question: Who were some of the historic coaches for Texas Longhorns football?
+        answer: Dana X. Bible and Darrell K Royal.
+      - question: In which years did Texas win national championships?
+        answer: 1963, 1969, 1970, and 2005.
+      - question: How many Heisman Trophy winners does Texas have?
+        answer: 2 Heisman Trophy winners.
+  - context: >
+      Texas has been affiliated with four conferences: Independent, Southern
+      Intercollegiate Athletic Association, Southwest Conference, Big 12, and as
+      of 2024, the Southeastern Conference.
+    questions_and_answers:
+      - question: Which conference did Texas join in 2024?
+        answer: Southeastern Conference (SEC).
+      - question: How many conferences has Texas been affiliated with?
+        answer: Four conferences (plus two periods as Independent).
+      - question: Which conference did Texas belong to from 1996–2023?
+        answer: Big 12 Conference.
+  - context: >
+      The Texas Longhorns have a long-standing rivalry with Oklahoma, known
+      as the Red River Rivalry, held annually at the Cotton Bowl in Dallas.
+      Texas also has rivalries with Texas Tech, Arkansas, Texas A&M, Baylor,
+      TCU, and Rice.
+    questions_and_answers:
+      - question: What is the name of the rivalry between Texas and Oklahoma?
+        answer: Red River Rivalry.
+      - question: Where is the Red River Rivalry game played?
+        answer: Cotton Bowl in Dallas.
+      - question: Name three other schools that Texas has football rivalries with.
+        answer: Texas Tech, Arkansas, Texas A&M.
+document_outline: >
+  Wikipedia article summarizing the history, achievements,
+  rivalries, conferences, stadium, and notable players of the Texas Longhorns
+  football team.
+document:
+  repo: https://github.com/ksunilkumar007/instructlab-knowledge-docs.git
+  commit: 9ab71821ffa4d1238f3c2e75b8e4300f630184d9
+  patterns:
+    - Texas_Longhorns_football.md
